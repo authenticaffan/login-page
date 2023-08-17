@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1 class="header_title">Login Page</h1>
+    <img src="profile.png" alt="login" class="profile">
+    <form method="post" id="frm">
+        <label for="username" id="username">Username: </label><input type="text" id="username"><br><br><br>
+        <label for="password" id="password">Password: </label><input type="password" id="password"><br><br><br>
+        <button id="submit" type="submit" name="submit" >Submit</button>
+    </form>
+    <script type="module">
+        import { initializeApp } from "firebase/app";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+    
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+        apiKey: "AIzaSyCsB02vOeUw0y7u44sf3XVof4mQ89J_IWI",
+        authDomain: "login-form-ad86c.firebaseapp.com",
+        projectId: "login-form-ad86c",
+        storageBucket: "login-form-ad86c.appspot.com",
+        messagingSenderId: "630613078821",
+        appId: "1:630613078821:web:6b003f3254e601b13320cc"
+        };
+    
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+    
+        const db = getDatabase(app);
+
+        </script>
+        
+        
+
+
+    
+</body>
+</html>

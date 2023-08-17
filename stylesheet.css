@@ -1,0 +1,28 @@
+.header_title{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    text-align: center;
+
+}
+#username,#password{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#submit{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.profile{
+    display: block;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    padding-bottom: 30px;
+}
